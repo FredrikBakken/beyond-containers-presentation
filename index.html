@@ -6,27 +6,27 @@
 
 		<title>Beyond Containers</title>
 
-		<link rel="stylesheet" href="reveals.js/dist/reset.css">
-		<link rel="stylesheet" href="reveals.js/dist/reveal.css">
-		<link rel="stylesheet" href="reveals.js/dist/theme/black.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="reveals.js/plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown data-background-image="reveals.js/assets/imgs/5041295-aerial-cargo-container-ship-ocean-ship.png">
+				<section data-markdown data-background-image="assets/imgs/5041295-aerial-cargo-container-ship-ocean-ship.png">
 					<textarea data-template>
 						# Beyond Containers
-						<img src="reveals.js/assets/imgs/telenor-logo.png" width="150">
+						<img src="assets/imgs/telenor-logo.png" width="150">
 						<br></br>
 						Fredrik Bakken
 
 						<sub>Analytics & AI</sub>
 					</textarea>
 				</section>
-				<section data-background-image="reveals.js/assets/imgs/5041295-aerial-cargo-container-ship-ocean-ship.png">
+				<section data-background-image="assets/imgs/5041295-aerial-cargo-container-ship-ocean-ship.png">
 					<div style="text-align: left;">
 						<h2>Table of Contents</h2>
 						<ol>
@@ -45,7 +45,7 @@
 
 				<!-- OPERATING SYSTEMS -->
 				<section data-background-color="rgb(8, 49, 92)">
-					<section data-background-image="reveals.js/assets/imgs/os/operatingsystems.png">
+					<section data-background-image="assets/imgs/os/operatingsystems.png">
 						<div style="text-align: left;">
 							<h2>Operating Systems</h2>
 						</div>
@@ -54,11 +54,11 @@
 						<h2>Architecture</h2>
 
 						<div style="font-size:0">
-							<img class="fragment" data-fragment-index="5" style="margin:0px; padding:0px;" src="reveals.js/assets/imgs/os/apps.svg">
-							<img class="fragment" data-fragment-index="4" style="margin:0px; padding:0px;" src="reveals.js/assets/imgs/os/libs.svg">
-							<img class="fragment" data-fragment-index="3" style="margin:0px; padding:0px;" src="reveals.js/assets/imgs/os/os.svg">
-							<img class="fragment" data-fragment-index="2" style="margin:0px; padding:0px;" src="reveals.js/assets/imgs/os/isa.svg">
-							<img class="fragment" data-fragment-index="1" style="margin:0px; padding:0px;" src="reveals.js/assets/imgs/os/hardware.svg">
+							<img class="fragment" data-fragment-index="5" style="margin:0px; padding:0px;" src="assets/imgs/os/apps.svg">
+							<img class="fragment" data-fragment-index="4" style="margin:0px; padding:0px;" src="assets/imgs/os/libs.svg">
+							<img class="fragment" data-fragment-index="3" style="margin:0px; padding:0px;" src="assets/imgs/os/os.svg">
+							<img class="fragment" data-fragment-index="2" style="margin:0px; padding:0px;" src="assets/imgs/os/isa.svg">
+							<img class="fragment" data-fragment-index="1" style="margin:0px; padding:0px;" src="assets/imgs/os/hardware.svg">
 						</div>
 						<aside class="notes">
 							<b>Layer 1 - Hardware:</b>
@@ -154,7 +154,7 @@
 
 					<section>
 						<h2>Linux Dependencies</h2>
-						<img src="reveals.js/assets/imgs/os/fig_01_linux-deps.svg">
+						<img src="assets/imgs/os/fig_01_linux-deps.svg">
 						<aside class="notes">
 							<ul>
 								<li>A HUGE monolithic kernel with strong inter-dependencies, making it difficult to remove or replace them</li>
@@ -203,7 +203,7 @@
 							<li><b>Type 1:</b> Hyper-V, Xen, KVM</li>
 							<li><b>Type 2:</b> QEMU, VirtualBox, VMWare Workstation</li>
 						</ul>
-						<img src="reveals.js/assets/imgs/virtualization/hypervisor.svg">
+						<img src="assets/imgs/virtualization/hypervisor.svg">
 						<aside class="notes">
 							<ul>
 								<li>More layers means lower performance and less isolation</li>
@@ -214,7 +214,7 @@
 
 				<!-- VIRTUAL MACHINES -->
 				<section data-background-color="rgb(8, 49, 92)">
-					<section data-background-image="reveals.js/assets/imgs/vm/vm.png">
+					<section data-background-image="assets/imgs/vm/vm.png">
 						<div style="text-align: left;">
 							<h2>VM</h2>
 						</div>
@@ -229,8 +229,8 @@
 						<h2>Virtual Machines</h2>
 						<table>
 							<tr>
-								<td style="text-align: center; vertical-align: bottom;"><img src="reveals.js/assets/imgs/vm/vm1.svg"></td>
-								<td style="text-align: center; vertical-align: bottom;"><img src="reveals.js/assets/imgs/vm/vm2.svg"></td>
+								<td style="text-align: center; vertical-align: bottom;"><img src="assets/imgs/vm/vm1.svg"></td>
+								<td style="text-align: center; vertical-align: bottom;"><img src="assets/imgs/vm/vm2.svg"></td>
 							</tr>
 							<tr>
 								<td style="text-align: center; vertical-align: bottom;">Type-1 Hypervisor</td>
@@ -243,11 +243,11 @@
 
 				<!-- CONTAINERS -->
 				<section data-background-color="rgb(8, 49, 92)">
-					<section data-background-image="reveals.js/assets/imgs/containers/docker-container.png">
+					<section data-background-image="assets/imgs/containers/docker-container.png">
 					</section>
 					<section>
 						<h2>Containers</h2>
-						<img src="reveals.js/assets/imgs/containers/container.svg">
+						<img src="assets/imgs/containers/container.svg">
 						<aside class="notes">
 							<ul>
 								<li>Designed to run a single application and its dependencies</li>
@@ -371,7 +371,7 @@
 
 				<!-- UNIKERNELS -->
 				<section data-background-color="rgb(8, 49, 92)">
-					<section data-background-image="reveals.js/assets/imgs/unikernls/squirrel.png">
+					<section data-background-image="assets/imgs/unikernls/squirrel.png">
 						<div style="text-align: left;">
 							<h2>Unikernels</h2>
 						</div>
@@ -380,8 +380,8 @@
 						<h2>Unikernels</h2>
 						<table>
 							<tr>
-								<td style="text-align: center; vertical-align: bottom;"><img src="reveals.js/assets/imgs/unikernls/unikraft1.svg"></td>
-								<td style="text-align: center; vertical-align: bottom;"><img src="reveals.js/assets/imgs/unikernls/unikraft2.svg"></td>
+								<td style="text-align: center; vertical-align: bottom;"><img src="assets/imgs/unikernls/unikraft1.svg"></td>
+								<td style="text-align: center; vertical-align: bottom;"><img src="assets/imgs/unikernls/unikraft2.svg"></td>
 							</tr>
 							<tr>
 								<td style="text-align: center; vertical-align: bottom;">Type-1 Hypervisor</td>
@@ -437,7 +437,7 @@
 					</section>
 					<section>
 						<h2>The Unikraft Model</h2>
-						<img src="reveals.js/assets/imgs/unikernls/unikraft-model-5.svg" height="500px">
+						<img src="assets/imgs/unikernls/unikraft-model-5.svg" height="500px">
 					</section>
 					<section>
 						<h2>The Unikraft Model</h2>
@@ -453,20 +453,20 @@
 					</section>
 					<section>
 						<h2>Reduced Complexity</h2>
-						<img src="reveals.js/assets/imgs/unikernls/helloworld-deps.svg">
+						<img src="assets/imgs/unikernls/helloworld-deps.svg">
 					</section>
 					<section>
 						<h2>Better Performance</h2>
-						<img src="reveals.js/assets/imgs/unikernls/throughput-2.svg">
+						<img src="assets/imgs/unikernls/throughput-2.svg">
 						<p class="fragment"><b>82% increase in throughput performance</b></p>
 					</section>
 					<section data-auto-animate>
 						<h2>Better Performance</h2>
-						<img src="reveals.js/assets/imgs/unikernls/min-mem.svg">
+						<img src="assets/imgs/unikernls/min-mem.svg">
 					</section>
 					<section data-auto-animate>
 						<h2>Better Performance</h2>
-						<img src="reveals.js/assets/imgs/unikernls/boot.svg">
+						<img src="assets/imgs/unikernls/boot.svg">
 					</section>
 					<section>
 						<h2>Better Transport</h2>
@@ -638,24 +638,24 @@
 				
 				<!-- CLOUD -->
 				<section data-background-color="rgb(8, 49, 92)">
-					<section data-background-image="reveals.js/assets/imgs/cloud/cloud.png">
+					<section data-background-image="assets/imgs/cloud/cloud.png">
 						<div style="text-align: left;">
 							<h2>Cloud</h2>
 						</div>
 					</section>
 					<section>
-						<img src="reveals.js/assets/imgs/cloud/cartoon.png" height="550">
+						<img src="assets/imgs/cloud/cartoon.png" height="550">
 					</section>
-					<section data-background-iframe="reveals.js/assets/html/cost-of-cloud.html" data-background-interactive></section>
-					<section data-background-iframe="reveals.js/assets/html/gcp-anthos.html" data-background-interactive></section>
+					<section data-background-iframe="assets/html/cost-of-cloud.html" data-background-interactive></section>
+					<section data-background-iframe="assets/html/gcp-anthos.html" data-background-interactive></section>
 					<section>
 						<h2>A "Normal" k8s Stack</h2>
-						<img src="reveals.js/assets/imgs/cloud/k8s-stack-0.png" height="400px">
+						<img src="assets/imgs/cloud/k8s-stack-0.png" height="400px">
 					</section>
 					<section>
 						<h2>What is the Problem?</h2>
 						<ol>
-							<li class="fragment"><p><b>Four degrees of virtualization</b></p><img src="reveals.js/assets/imgs/cloud/k8s-stack-1.png"  height="200px"></li>
+							<li class="fragment"><p><b>Four degrees of virtualization</b></p><img src="assets/imgs/cloud/k8s-stack-1.png"  height="200px"></li>
 							<li class="fragment"><p><b>Isolation</b> of kube-system- and application pods are separated by namespaces and use the same kernel</p></li>
 						</ol>
 						<aside class="notes">
@@ -666,7 +666,7 @@
 					</section>
 					<section>
 						<h2>Interfacing VMs with K8s</h2>
-						<img src="reveals.js/assets/imgs/cloud/k8s-vm.png">
+						<img src="assets/imgs/cloud/k8s-vm.png">
 						<aside class="notes">
 							<ul>
 								<li>VM-based pod controlled with k8s</li>
@@ -676,7 +676,7 @@
 					</section>
 					<section>
 						<h2>Interfacing VMs with K8s</h2>
-						<img src="reveals.js/assets/imgs/cloud/runu-shim.png">
+						<img src="assets/imgs/cloud/runu-shim.png">
 						<aside class="notes">
 							<ul>
 								<li>Kubernetes talks to a container runtime engine via Container Runtime Interface (CRI), e.g. containerd</li>
@@ -686,7 +686,7 @@
 					</section>
 					<section>
 						<h2>Unikernel in OCI Image</h2>
-						<img src="reveals.js/assets/imgs/cloud/unikernel-container.png">
+						<img src="assets/imgs/cloud/unikernel-container.png">
 						<aside class="notes">
 							<ul>
 								<li>containerd has an image service, which pulls the OCI image</li>
@@ -697,7 +697,7 @@
 					</section>
 					<section>
 						<h2>Mixed Container/Unikernel Runtime</h2>
-						<img src="reveals.js/assets/imgs/cloud/k8s-unikernel.png">
+						<img src="assets/imgs/cloud/k8s-unikernel.png">
 						<aside class="notes">
 							<ul>
 								<li>OS must be able to communicate with Hypervisors (libvirtd)</li>
@@ -728,11 +728,11 @@
 			</div>
 		</div>
 
-		<script src="reveals.js/dist/reveal.js"></script>
-		<script src="reveals.js/plugin/notes/notes.js"></script>
-		<script src="reveals.js/plugin/markdown/markdown.js"></script>
-		<script src="reveals.js/plugin/highlight/highlight.js"></script>
-		<script src="reveals.js/plugin/math/math.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/

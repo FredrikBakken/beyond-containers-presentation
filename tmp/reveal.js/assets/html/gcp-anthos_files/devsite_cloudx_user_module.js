@@ -1,0 +1,1 @@
+(function(_ds){var window=this;window.customElements.whenDefined(_ds.kB()).then(()=>{try{window.customElements.define(_ds.hC(),_ds.sC)}catch(a){console.warn("devsite.app.customElement.CloudxUser",a)}});})(_ds_www);
